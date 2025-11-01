@@ -1,5 +1,5 @@
-import { Toaster } from "sonner";
-import { ThemeProvider } from "./providers/theme";
+import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "@/providers/theme";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
