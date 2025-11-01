@@ -1,4 +1,4 @@
-import { MapProvider } from "@/providers/MapProvider";
+import { MapProvider } from "@/providers/map";
 import { MapControls } from "./MapControls";
 
 export function MapView() {
