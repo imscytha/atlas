@@ -1,8 +1,8 @@
 import { Minus, Plus } from "lucide-react";
 import { Button } from "../ui/button";
-import { useMap } from "@/contexts/MapContext";
 import { useCallback } from "react";
 import { cn } from "@/lib/utils";
+import { useMap } from "@/providers/map";
 
 type ZoomControlsProps = React.HTMLAttributes<HTMLDivElement>;
 

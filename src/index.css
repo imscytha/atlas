@@ -4,6 +4,11 @@
   :root {
     @apply font-sans;
   }
+
+  html, body, #root, main {
+    @apply h-full w-full m-0 p-0;
+  }
+
 }
 
 @media (prefers-reduced-motion) {
