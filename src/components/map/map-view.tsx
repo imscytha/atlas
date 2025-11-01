@@ -1,5 +1,5 @@
 import { MapProvider } from "@/providers/map";
-import { MapControls } from "./MapControls";
+import { MapControls } from "@/components/map/map-controls";
 
 export function MapView() {
   return (

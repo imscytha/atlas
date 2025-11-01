@@ -1,5 +1,5 @@
 import Layout from "@/layout";
-import { MapView } from "./components/map/map-view";
+import { MapView } from "@/components/map/map-view";
 
 import "@/index.css";
 
