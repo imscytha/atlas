@@ -47,7 +47,7 @@ let styleProvider: MapStyleProvider | null = null;
 function getStyleProvider(): MapStyleProvider {
   if (styleProvider) return styleProvider;
 
-  const apiKey = process.env.BUN_PUBLIC_MAPTILER_API_KEY;
+  const apiKey = undefined;
   styleProvider = apiKey ? new MapTiler(apiKey) : new OpenFreeMap();
   return styleProvider;
 }
