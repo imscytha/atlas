@@ -1,9 +1,13 @@
-import { MapView } from "./components/map/MapView";
-import "./index.css";
+import Layout from "@/layout";
+import { MapView } from "./components/map/map-view";
+
+import "@/index.css";
 
 export function App() {
   return (
-    <MapView />
+    <Layout>
+      <MapView />
+    </Layout>
   );
 }
 
